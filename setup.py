@@ -9,7 +9,7 @@ from io import open
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 6)
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'python helper functions/methods'
 LONG_DESCRIPTION = 'In this package have more helpful packages used in django and python. This package is developed by sakib malik.'
 
@@ -58,9 +58,9 @@ if sys.argv[-1] == 'publish':
     shutil.rmtree('dist')
     shutil.rmtree('build')
     shutil.rmtree('sakib_helpers.egg-info')
-    os.system("git add *")
-    os.system(f"git commit -m 'New Version = {VERSION} released' ")
-    os.system("git push")
+    # os.system("git add *")
+    # os.system(f"git commit -m 'New Version = {VERSION} released' ")
+    # os.system("git push")
     sys.exit()
 
 
