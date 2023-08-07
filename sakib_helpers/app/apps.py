@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SakibHelpersAppConfig(AppConfig):
+class AppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'sakib_helpers.sakib_helpers_app'
+    name = 'sakib_helpers.app'

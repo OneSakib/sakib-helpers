@@ -9,9 +9,8 @@ from io import open
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 6)
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'python helper functions/methods'
-LONG_DESCRIPTION = 'In this package have more helpful packages used in django and python. This package is developed by sakib malik.'
 
 
 def read(f):
